@@ -2,14 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Pair<T1, T2>
+namespace Maze
 {
-    public T1 First { get; set; }
-    public T2 Second { get; set; }
-    
-    public Pair(T1 first, T2 second)
+    public class Pair<T1, T2>
     {
-        First = first;
-        Second = second;
+        public T1 x { get; set; }
+        public T2 y { get; set; }
+        
+        public Pair(T1 _x, T2 _y)
+        {
+            x = _x;
+            y = _y;
+        }
     }
 }
