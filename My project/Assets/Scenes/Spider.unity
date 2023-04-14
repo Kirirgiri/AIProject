@@ -457,7 +457,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1087667868}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 27.887196, z: 0}
+  m_LocalPosition: {x: 0, y: 39.447197, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -588,8 +588,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d375e882665d56741b14ce3fca525d72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mazeWidth: 24
-  mazeHeight: 9
+  mazeWidth: 10
+  mazeHeight: 15
   sizeMultipler: 1
   block: {fileID: 678664108746750627, guid: 849656571684e86489b88b2240607dc0, type: 3}
   wall: {fileID: 3588630599764084643, guid: 5a739dd046889fc419aed2a340c41aa9, type: 3}
@@ -649,7 +649,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a47ba10d2dd17d241a4f4922da2b65b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numberOfNPC: 10
+  numberOfNPC: 50
   NPC: {fileID: 8650563573373060556, guid: 683a351a4ba7e06499c6e9b1d21486a0, type: 3}
   mazeCreator: {fileID: 1711165487}
 --- !u!4 &2040701471

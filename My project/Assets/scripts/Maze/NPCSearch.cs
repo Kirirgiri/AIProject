@@ -21,12 +21,12 @@ namespace Maze{
         [SerializeField] private directions dir;
         void Update()
         {
-            if(action == sides.moving){
+/*             if(action == sides.moving){
                 transform.Translate(Vector3.forward * speed * Time.deltaTime);
             }else{
                 gameObject.transform.position += Vector3.back*speed*Time.deltaTime;
-            }
-/*             if(dir==directions.right){
+            } */
+            if(dir==directions.right){
                 transform.position += Vector3.right*speed*Time.deltaTime;
             }else if(dir==directions.left)
             {
@@ -35,10 +35,10 @@ namespace Maze{
                 gameObject.transform.position += Vector3.forward*speed*Time.deltaTime;
             }else if(dir==directions.down){
                 gameObject.transform.position += Vector3.back*speed*Time.deltaTime;
-            } */
+            }
 
         }
-/*         void OnCollisionEnterEnter(Collision collision)
+        void OnCollisionEnterEnter(Collision collision)
         {
             if(collision.gameObject.CompareTag("wall")){
                 int rnd = UnityEngine.Random.Range(0,3);
@@ -57,14 +57,14 @@ namespace Maze{
                         break;
                 }
             }
-        } */
-        void OnCollisionEnter(Collision collision){
+        }
+/*         void OnCollisionEnter(Collision collision){
             if(collision.gameObject.CompareTag("wall"))
             {
                 Debug.Log("FSDGSDG");
                 action = sides.searching;
             }
-        }
+        } */
         void OnCollisionExit(Collision collision)
         {
                 int rnd = UnityEngine.Random.Range(0,1);
