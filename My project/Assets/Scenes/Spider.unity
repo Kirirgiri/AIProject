@@ -240,6 +240,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 076e23b02093f5c428589cdc1616ca0d, type: 3}
   m_PrefabInstance: {fileID: 1069793336}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &332166174 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 076e23b02093f5c428589cdc1616ca0d, type: 3}
+  m_PrefabInstance: {fileID: 1069793336}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &332166175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -359,7 +364,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 076e23b02093f5c428589cdc1616ca0d, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3677871804177914180, guid: 076e23b02093f5c428589cdc1616ca0d, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -452,12 +457,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1087667868}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 5.75, y: 21.6, z: 8.48}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 27.887196, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 332166174}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1468422064
 GameObject:
@@ -583,8 +588,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d375e882665d56741b14ce3fca525d72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mazeWidth: 15
-  mazeHeight: 15
+  mazeWidth: 24
+  mazeHeight: 9
   sizeMultipler: 1
   block: {fileID: 678664108746750627, guid: 849656571684e86489b88b2240607dc0, type: 3}
   wall: {fileID: 3588630599764084643, guid: 5a739dd046889fc419aed2a340c41aa9, type: 3}
@@ -660,5 +665,5 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
