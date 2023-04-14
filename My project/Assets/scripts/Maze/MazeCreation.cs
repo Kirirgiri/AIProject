@@ -53,7 +53,7 @@ namespace Maze{
                     {
                         CreateAnotherFrontier(); 
                     }
-                    
+
                 var neighbours = new List<int>();
                 //create a set of unvisited neighbours
                 var _top = new int[]{myPairStack.Peek().x,myPairStack.Peek().y};
