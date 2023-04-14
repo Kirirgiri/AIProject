@@ -11,6 +11,7 @@ namespace TL.Core
         public NPCInventory Inventory { get; set; }
         public Stats stats { get; set; }
         public Action[] actionsAvailable;
+        
         // Start is called before the first frame update
         void Start()
         {
